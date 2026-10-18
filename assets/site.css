@@ -20,7 +20,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--space);color:var(--ink);font:400 17px/1.65 var(--sans);overflow-x:hidden}
-img,video{max-width:100%;display:block}
+img,video{max-width:100%;height:auto;display:block}
 a{color:var(--chrome)}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
 
@@ -171,7 +171,7 @@ section{padding:96px 0;position:relative}
 /* parent company */
 .parent{display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:center;border-radius:24px;padding:40px 44px;
   border:1px solid rgba(197,165,90,.35);background:linear-gradient(135deg,rgba(0,33,71,.75),rgba(1,18,42,.85))}
-.parent img{width:230px}
+.parent img{width:260px;height:auto}
 .parent .eyebrow{color:var(--gold)}
 .parent h2{font-size:clamp(26px,3vw,36px);margin:8px 0 10px}
 .parent p{color:#c6cfdc;margin:0 0 18px}
@@ -229,7 +229,7 @@ footer .legal a{display:inline;color:var(--gold-soft);font-size:13.5px}
   .cards,.features,.steps,.plans,.contacts{grid-template-columns:1fr}
   .card{padding:26px}
   .parent{grid-template-columns:1fr;padding:30px 24px}
-  .parent img{width:160px}
+  .parent img{width:220px;height:auto}
   .band{padding:28px 22px}
   footer .top{grid-template-columns:1fr}
   .hero .logo{width:min(300px,80%)}
